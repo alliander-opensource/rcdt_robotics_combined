@@ -15,14 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          path: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.10"
       - run: pip install ruff
-      - run: ruff format --check main
-      - run: ruff check --config .config/pyproject.toml main
+      - run: ruff format --check
+      - run: ruff check
 
   reuse:
     runs-on: ubuntu-latest

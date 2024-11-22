@@ -24,8 +24,7 @@ class JoyTopicManager(Node):
         self.buttons: List[int] = []
         self.button_states: List[int] = []
 
-        for name in configs:
-            config: dict = configs[name]
+        for config in configs.values():
             topic = config.get("topic")
             button = config.get("button")
             self.topics.append(topic)

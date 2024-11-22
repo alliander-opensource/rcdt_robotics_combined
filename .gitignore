@@ -7,7 +7,7 @@ ros2_ws/build/
 ros2_ws/install/
 ros2_ws/log/
 
-# .bashrc.personal
+.bashrc.personal
 .bash_history
 .bash_logout
 .bashrc

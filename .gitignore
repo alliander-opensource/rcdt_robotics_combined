@@ -6,6 +6,9 @@ __pychache__/
 ros2_ws/build/
 ros2_ws/install/
 ros2_ws/log/
+franka_ws/
+libfranka/
+moveit_ws/
 
 .bashrc.personal
 .bash_history

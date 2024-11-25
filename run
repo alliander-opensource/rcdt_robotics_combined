@@ -22,8 +22,9 @@ SCRIPT_DIR_PATH=$(
     pwd -P
 )
 
-# If required directories do not exist, create them
+# If required files/directories do not exist, create them
 mkdir -p ~/.vscode-server
+touch $SCRIPT_DIR_PATH/.bashrc.personal
 
 # Define image options based on dockerfiles in dockerfiles directory
 options=()
